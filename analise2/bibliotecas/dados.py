@@ -2,7 +2,7 @@
 
 # Extração do arquivo
 def extraiArquivo():
-    arquivo = open('./final/arquivos/dados_red.txt', 'r')  # Abre arquivo
+    arquivo = open('./analise2/arquivos/dados_red.txt', 'r')  # Abre arquivo
     dados = arquivo.read().splitlines() # Divide arquivo
     arquivo.close() # Fecha arquivo
     return dados # Retorna

@@ -80,7 +80,7 @@ class Dados:
     def preencheArquivoSaida(self):
 
         # Abre o arquivo de saída
-        arquivoSaida = open("./dados/arq_saida.txt", "w")
+        arquivoSaida = open("./analise1/dados/arq_saida.txt", "w")
 
         # Transforma cada elemento da lista 'linhas' em uma linha do arquivo
         arquivoSaida.writelines(self.linhas)

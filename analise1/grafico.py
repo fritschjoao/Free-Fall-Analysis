@@ -14,7 +14,7 @@ class Grafico:
 
     # Extrai os dados do arquivo na lista dados, cada linha do arquivo é um elemento da lista
     def extraiArquivo(self):
-        arquivo = open('./parcial/dados/arq_saida.txt', 'r') # Abre arquivo
+        arquivo = open('./analise1/dados/arq_saida.txt', 'r') # Abre arquivo
         self.dados = arquivo.read().splitlines() # Divide as linhas
         arquivo.close() # Fecha arquivo
 
@@ -46,7 +46,7 @@ class Grafico:
         plt.xlabel('Altura(m)')  # Descrição x = Altura
         plt.ylabel('Tempo(s)')  # Descrição y = Tempo
         
-        plt.savefig('./parcial/grafico_parcial.png') # Salva figura
+        plt.savefig('./analise1/grafico_parcial.png') # Salva figura
         plt.show()  # Mostrar o gráfico
 
 # Função principal "chamadora"

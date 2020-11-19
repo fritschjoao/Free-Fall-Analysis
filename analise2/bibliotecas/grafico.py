@@ -27,6 +27,6 @@ def constroiGrafico(aceleracao, alturas, tempos, errors):
     plt.ylabel('Tempo(s)')  # Descrição y = Tempo
     plt.legend(loc='upper left')  # Coloca legenda
 
-    plt.savefig('./final/grafico_final.png') # Salva figura
+    plt.savefig('./analise2/grafico_final.png') # Salva figura
     plt.show()  # Mostrar o gráfico
     
